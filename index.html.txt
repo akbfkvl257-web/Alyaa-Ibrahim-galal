@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Flashcards</title>
+  <style>
+    body {
+      background-color: #fff8dc;
+      font-family: "Cairo", sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+
+    h1 {
+      color: #ff6f61;
+      margin-bottom: 30px;
+    }
+
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+
+    .card {
+      width: 150px;
+      height: 180px;
+      background-color: #fff;
+      border: 3px solid #ffb6b9;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      margin-top: 20px;
+    }
+
+
+    .card p {
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>My Flashcards</h1>
+
+
+  <div class="cards-container">
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" alt="Apple">
+      <p>Apple</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Cat">
+      <p>Cat</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3222/3222800.png" alt="Sun">
+      <p>Sun</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="Flower">
+      <p>Flower</p>
+    </div>
+
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616545.png" alt="Ball">
+      <p>Ball</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
